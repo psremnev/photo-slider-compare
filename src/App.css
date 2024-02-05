@@ -1,0 +1,65 @@
+.photoSlider {
+  display: flex;
+  position: relative;
+  user-select: none;
+  border-radius: 4px;
+}
+
+.photoSlider img {
+  border-radius: 10px;
+}
+
+.borderWrapper {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  position: absolute;
+  height: 100%;
+}
+
+.grab {
+  cursor: grab;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.border__line {
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  right: 5px;
+}
+
+.border__cursorTop {
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid #d9d9d9;
+  border-radius: 50%;
+  right: 0;
+}
+
+.border__cursorBottom {
+  position: absolute;
+  bottom: -5px;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border: 2px solid #d9d9d9;
+  border-radius: 50%;
+  right: 0;
+}
+
+.newImgBlock {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+}

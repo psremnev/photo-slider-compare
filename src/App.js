@@ -3,7 +3,6 @@ import './App.css';
 import PhotoSliderCompare from './PhotoSliderCompare';
 import Settings from './Settings';
 
-/** Компонент PhotoCompareSlider */
 export default () => {
   const [procent, setProcent] = useState(50);
   const [size, setSize] = useState(400);
